@@ -110,13 +110,14 @@ public:
 };
 
 int main() {
+    cout << "Welcome!!!\n"
     cout << "Instructions\n";
-    cout << " Credit = c |Debit = d \n";
+    court << " Press q yo quit when the loop repeats \n";
 
     while (true) {
         int index;
         char u;
-        string choice, name;
+        string choice, an me;
         cout << "\nDo you want to Create a new account? (yes/no) = ";
         cin >> choice;
 
