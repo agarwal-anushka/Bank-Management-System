@@ -110,7 +110,7 @@ public:
 };
 
 int main() {
-    cout << "Welcome!!!\n"
+    cout << "Welcome!!!\n";
     cout << "Instructions\n";
     court << " Press q yo quit when the loop repeats \n";
 
