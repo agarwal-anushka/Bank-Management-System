@@ -117,7 +117,7 @@ int main() {
     while (true) {
         int index;
         char u;
-        string choice, an me;
+        string choice, name;
         cout << "\nDo you want to Create a new account? (yes/no) = ";
         cin >> choice;
 
