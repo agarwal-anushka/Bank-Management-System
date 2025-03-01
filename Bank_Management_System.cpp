@@ -112,7 +112,7 @@ public:
 int main() {
     cout << "Welcome!!!\n";
     cout << "Instructions\n";
-    cout << " Type quit when the loop repeats \n";
+    cout << " Type quit to exit when the loop repeats \n";
 
     while (true) {
         int index;
@@ -156,6 +156,7 @@ int main() {
         } 
         else if (choice == "quit") {
             cout << "Thank You!";
+	    break;
         } 
         else {
             cout << "Invalid input! please enter correct input.\n";
