@@ -118,7 +118,7 @@ int main() {
         int index;
         char u;
         string choice, name;
-        cout << "\nDo you want to Create a new account? (yes/no) = ";
+        cout << "\n\nDo you want to Create a new account? (yes/no) = ";
         cin >> choice;
 
         bank b1;
@@ -164,4 +164,5 @@ int main() {
     }
     return 0;
 }
+
 
